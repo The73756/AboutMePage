@@ -343,7 +343,9 @@ p {
 
     .contacts {
         flex-direction: column;
+        margin-top: 100px;
         text-align: center;
+
     }
 
     .contacts-link {
@@ -353,11 +355,32 @@ p {
 }
 
 @media (max-width: 320px) {
+
+    /* Page */
+    .page {
+        padding-bottom: 5px;
+    }
+
+    /* Header */
+    .header {
+        padding-top: 2px;
+        padding-bottom: 7px;
+        margin-bottom: 30px;
+    }
+    .header-brand {
+        margin-bottom: 0.1rem;
+    }
+
     .subtitle{
         font-size: 1.2rem;
     }
 
     .title {
         font-size: 1.7rem
+    }
+
+    /* Contacts */
+    .contacts {
+        margin-top: 0;
     }
 }
